@@ -1,5 +1,5 @@
 {
-  "name": "Prime Ai BOT",
+  "name": "DOBBY IS AI",
   "description": "This is a whatsapp bot built with nodejs and baileys with MD support.",
   "keywords": [
     "bot",
@@ -56,15 +56,15 @@
     },
       "AUTOREAD": {
       "description": "Put here TRUE if you want bot to automatically bluetick messages in private chats",
-      "required": true
+      "required": false
 },
  "AUTOVIEW": {
       "description": "Input true if you want bot to automatically read status update",
-      "required": false
+      "required": true
 },
  "WA_PRESENCE": {
       "description": "Input either recording or typing. This enables bot to simulate typing or recording.",
-      "required": false
+      "required": typing
 },
  "ANTILINK": {
       "description": "Input TRUE if you want bot to kick link senders",
@@ -88,7 +88,7 @@
 },
  "AUTOBIO": {
       "description": "Input TRUE if you want bot to autoupdate its about with current time and date.",
-      "required": false
+      "requdescrip true
 },
  "APP_NAME": {
       "description": "Input your app name that you put above.",
